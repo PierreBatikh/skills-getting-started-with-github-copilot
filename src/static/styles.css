@@ -59,10 +59,11 @@ section h3 {
 
 .activity-card {
   margin-bottom: 15px;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #f9f9f9;
+  padding: 18px;
+  border: 1px solid #d9def6;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #ffffff 0%, #f7f9ff 100%);
+  box-shadow: 0 6px 18px rgba(26, 35, 126, 0.08);
 }
 
 .activity-card h4 {
@@ -72,6 +73,39 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.availability-pill {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background-color: #e8eefc;
+  color: #1a237e;
+  font-weight: 600;
+}
+
+.participants-section {
+  margin-top: 14px;
+  padding: 12px;
+  border: 1px solid #e0e6ff;
+  border-radius: 10px;
+  background-color: #f4f7ff;
+}
+
+.participants-section h5 {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  color: #1a237e;
+}
+
+.participants-list {
+  margin-left: 20px;
+  display: grid;
+  gap: 4px;
+}
+
+.participants-list li {
+  color: #263238;
 }
 
 .form-group {
